@@ -1,37 +1,59 @@
-# Awesome-Document-Email-Template-Builder
+# Awesome Document & Email Template Builders ✉️📄
 
-## Top Document & Email Template Builder Ecosystem
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Document &amp; Email Template Builders Banner" width="100%" />
+</p>
 
-**Curated List of SaaS Platforms & Open-Source GitHub Projects**  
-*Focused on Drag-and-Drop Email Design, Document Templating & White-Label Embedding*  
-**Last updated: March 2026**
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Document-Email-Template-Builder/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Document-Email-Template-Builder?style=social&color=white" alt="Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Document-Email-Template-Builder/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Document-Email-Template-Builder?style=social&color=white" alt="Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Document-Email-Template-Builder/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Document-Email-Template-Builder?style=flat-square&color=blue" alt="Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Document-Email-Template-Builder/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Document-Email-Template-Builder?style=flat-square&color=green" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Document & Email Template Builders**. These tools help teams design responsive emails, create reusable document templates, and embed drag-and-drop editors into their own products—covering everything from standalone email builders to white-label SDKs for SaaS applications.
+---
 
-**Examples** include Beefree (RGE Studio), Stripo, Unlayer, Chamaileon, Dyspatch, MailerLite, PandaDoc, and open-source alternatives like Mosaico and Licensor (the category leaders).
+## 🌟 Overview & Ecosystem
 
-**Open-source emphasis**: This section highlights every major active project for self-hosted email template design, open-source document templating, and community-driven builders—ideal for organizations seeking to avoid per-export fees and white-label SDK pricing. The open-source landscape is genuinely thin for **drag-and-drop email builders** (most commercial SDKs are proprietary), but functional for **document templating and rendering**: **Mosaico** provides a self-hosted email template editor , and **Licensor** offers a desktop document template engine with variable substitution .
+A curated directory and developer guide to **Document & Email Template Builders**, embeddable drag-and-drop SDKs, and visual templating engines. Whether you are building responsive marketing newsletters, generating automated transactional PDFs/invoices, or embedding a white-label design suite directly inside your SaaS product, this repository tracks the premier commercial platforms and open-source GitHub alternatives.
 
-Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
+### 🎯 Key Focus Areas
+- 📬 **Responsive Email Builders**: Drag-and-drop newsletter editors, MJML and React component engines, and multi-ESP exporters.
+- 📑 **Document Templating & PDF Generation**: Reusable contract, proposal, and invoice generators with variable interpolation.
+- 🧩 **Embeddable WYSIWYG SDKs**: White-label canvas editors, REST APIs, and UI libraries for seamless integration into web apps.
+- 🔓 **Self-Hosted & Open-Source**: Community-maintained, self-hosted editors to eliminate recurring per-export SaaS fees.
 
-## Table of Contents
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+---
 
-## Sector Overview & Market Dynamics
+## 📑 Table of Contents
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📈 Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer](#-disclaimer)
 
-The global email marketing software and document generation markets represent a combined market size of approximately **$6.5B to $7.2B** (with email marketing software valued at ~$2.5B–$2.8B growing at ~11.5% CAGR, and document generation software reaching ~$4.1B–$4.4B growing at ~9.7% CAGR). 
+---
 
-The sector exhibits **moderate fragmentation with high concentration at the macro suite level**: while broad marketing and workflow suites (e.g., Mailchimp/Intuit, PandaDoc) capture the bulk of total market revenue through winner-take-most distribution and SMB lock-in, specialized drag-and-drop template builders and embeddable SDKs (e.g., Beefree, Stripo, Unlayer) maintain a highly fragmented, vibrant niche serving bespoke developer integration and multi-ESP workflows.
+## 📊 Sector Overview & Market Dynamics
 
-## SaaS Platforms
+The global email marketing software and document generation software markets represent a combined market size of approximately **$6.5B to $7.2B** (with email marketing software valued at ~$2.5B–$2.8B expanding at ~11.5% CAGR, and document generation software reaching ~$4.1B–$4.4B expanding at ~9.7% CAGR).
+
+The sector exhibits **moderate fragmentation with high concentration at the macro suite level**: while broad marketing automation suites and enterprise signature/document hubs (e.g., Mailchimp/Intuit, PandaDoc) capture the bulk of total market revenue through winner-take-most customer distribution and SMB lock-in, specialized drag-and-drop template builders and embeddable SDKs (e.g., Beefree, Stripo, Unlayer) maintain a highly fragmented, vibrant niche serving bespoke developer integrations, multi-ESP workflows, and standalone agency designers.
+
+---
+
+## 🏢 SaaS & Hosted Platforms
+
+> [!NOTE]
+> All platforms are listed in descending order of company scale (valuation / annual revenue).
 
 | Product | Company Scale (Valuation / Revenue) | Description | Pricing (Starting Tier) | Free Tier / Free Trial Limits |
 |---------|------------------------------------|-------------|-------------------------|-------------------------------|
-| **[Mailchimp](https://mailchimp.com/)** | **$12B acquisition** (~$800M+ ARR) | Flagship email marketing and automation platform featuring rich email template libraries and visual builder. | Standard: **$20/month** (500 contacts) | **Free forever plan**: max 250 contacts, 500 email sends/month (daily cap of 250 sends); **14-day Standard trial** available. |
+| **[Mailchimp](https://mailchimp.com/)** | **$12B acquisition** (~$800M+ ARR) | Enterprise-scale email marketing and automation platform featuring rich email template libraries and visual builder. | Standard: **$20/month** (500 contacts) | **Free forever plan**: max 250 contacts, 500 email sends/month (daily cap of 250 sends); **14-day Standard trial** available. |
 | **[PandaDoc](https://www.pandadoc.com/)** | **$1B valuation** (~$100M+ ARR) | Document workflow and automation platform offering drag-and-drop proposal, contract, and document template design. | Starter: **$19/user/month** (annual) or $35/month | **Free forever plan**: 5 documents/month, 5 templates, eSignatures only; **14-day free trial** of Business plan (capped at 5 test documents, no credit card required). |
 | **[MailerLite](https://www.mailerlite.com/)** | **~$90M (€84M) acquisition** (~$18M ARR) | Email marketing and landing page platform with intuitive drag-and-drop builder and automation tools. | Growing Business: **€9/month** (~$10/month, 500 subscribers) | **Free forever plan**: up to 1,000 subscribers, 12,000 emails/month, 1 user seat, 10 landing pages; **30-day free trial** of premium features. |
 | **[Beefree (RGE Studio)](https://beefree.io/)** | **~$26M (€24M) parent market cap** ($18.7M ARR) | Standalone and embeddable visual design suite for responsive emails, popups, and pages (subsidiary of publicly traded Growens). | Professional: **$30/month** (or $300/year billed annually) | **Free forever (Starter) plan**: max 6 exports/month, 10 stored designs/pages, includes Beefree badge; **15-day Professional free trial** (no credit card required). |
@@ -40,37 +62,70 @@ The sector exhibits **moderate fragmentation with high concentration at the macr
 | **[Dyspatch](https://www.dyspatch.io/)** | **~$13.4M funded** (~$2.5M ARR) | Enterprise-focused email production environment and modular template builder with approval workflows and localization. | Starter: **$149/month** (or $134.10/month billed annually) | **No standard self-serve free plan**; **Trial / demo evaluation sandbox**: 100 email client render previews provided upon request via sales demo. |
 | **[Chamaileon](https://chamaileon.io/)** | **Bootstrapped** (~$660K ARR) | Collaborative email design platform and embeddable SDK with reusable module libraries and real-time co-editing. | Premium Team: **$400/month** (or ~$4,000/year billed annually) | **No standard self-serve free plan**; Guided evaluation sandbox access provided via consultation / product demo call. |
 
-## Open-Source GitHub Projects
+---
 
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[Mosaico](https://github.com/voidlabs/mosaico)** | [![Stars](https://img.shields.io/github/stars/voidlabs/mosaico?style=social&color=white)](https://github.com/voidlabs/mosaico/stargazers) | **The most mature open-source email template editor.** Self-hosted, browser-based drag-and-drop builder for responsive email templates. Generates clean, table-based HTML compatible with major email clients. **Free and open-source** (check repository license). Best for teams wanting a **self-hosted Beefree/Stripo alternative** without per-export fees . |
-| **[Licensor](https://github.com/clxrityy/Licensor)** | [![Stars](https://img.shields.io/github/stars/clxrityy/Licensor?style=social&color=white)](https://github.com/clxrityy/Licensor/stargazers) | **Desktop document template manager with variable substitution and rendering.** GNU GPLv3. Templates stored as **Markdown files with YAML front matter** defining name, description, and variables (text, textarea, number, date). **Double-curly-brace variable substitution** (`{{variable_name}}`). Search across templates/documents. **Export rendered documents as `.md` or `.txt`, or as `.zip` with metadata/files**. **Best for generating personalized documents from Markdown templates** without a SaaS dependency . |
+## 💻 Open-Source GitHub Projects
 
-### Additional Strong Open-Source Options
+> [!TIP]
+> All repositories are ranked in descending order of GitHub stargazers. Click any star badge to view stargazers directly.
 
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[Mosaico (Wikidata entry)](https://www.wikidata.org/wiki/Q114457596)** | — | Wikidata entry confirming Mosaico as an **open-source tool for creating email templates** with source code at `github.com/voidlabs/mosaico` . Use as a reference for the project's open-source status. |
-
-**Frameworks for building custom systems**: Choose **Mosaico** for a self-hosted email template editor (the closest open-source equivalent to Beefree/Stripo) , and **Licensor** for Markdown-based document templating with variable substitution and export . **For embedding a white-label builder into your own product**, the commercial SDKs (Unlayer, Chamaileon, Beefree SDK) remain the only mature options—no open-source equivalent provides the same embeddable, white-label experience.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Template builders may handle customer data in merge tags and personalized content; enforce data minimization and compliance with applicable privacy regulations when using variable substitution.
-- **Open-source email builders are scarce; document templating is more viable.** Mosaico is the primary open-source email template editor, but it lacks the polished UX and ESP integrations of Beefree or Stripo . Licensor provides document templating but is a desktop app with Markdown-based templates—not a drag-and-drop visual builder . **Commercial SDK pricing varies dramatically and hidden costs are common**: Unlayer's free tier is genuinely forever-free but paid plans jump to **$250/month** ; Chamaileon's entry signals range from **$0 to $400** depending on source and usage ; Dyspatch is enterprise-only with **$18,000–$30,000 annual TCO** for 50K contacts and **$1,000–$5,000+ onboarding fees** . **Free tiers have meaningful limits**: Stripo caps exports at **4/month** on free, Beefree restricts export counts, and PandaDoc limits documents to **5/month** . Validate export limits and feature gates against your actual production volume before committing.
+| Project | Stars | Category | Description |
+|---------|-------|----------|-------------|
+| **[React Email](https://github.com/resend/react-email)** | [![Stars](https://img.shields.io/github/stars/resend/react-email?style=social&color=white)](https://github.com/resend/react-email/stargazers) | Email Framework / Components | Next-generation collection of high-quality, unstyled React components for creating beautiful, responsive emails across Gmail, Apple Mail, and Outlook. Built by Resend. |
+| **[MJML](https://github.com/mjmlio/mjml)** | [![Stars](https://img.shields.io/github/stars/mjmlio/mjml?style=social&color=white)](https://github.com/mjmlio/mjml/stargazers) | Email Markup Language / Engine | The industry standard semantic markup language designed to reduce the pain of coding responsive emails. Compiles semantic tags into bulletproof, client-compliant HTML. |
+| **[Documenso](https://github.com/documenso/documenso)** | [![Stars](https://img.shields.io/github/stars/documenso/documenso?style=social&color=white)](https://github.com/documenso/documenso/stargazers) | Document Signing & Templates | The open-source DocuSign and PandaDoc alternative. Full-stack signing platform with document template creation, variable fields, and self-hosted workflows. |
+| **[pdfme](https://github.com/pdfme/pdfme)** | [![Stars](https://img.shields.io/github/stars/pdfme/pdfme?style=social&color=white)](https://github.com/pdfme/pdfme/stargazers) | Document & PDF Visual Builder | TypeScript-based visual template editor and generator for PDF documents. Provides a visual drag-and-drop designer UI component and server-side PDF rendering library. |
+| **[easy-email-editor](https://github.com/zalify/easy-email-editor)** | [![Stars](https://img.shields.io/github/stars/zalify/easy-email-editor?style=social&color=white)](https://github.com/zalify/easy-email-editor/stargazers) | Drag-and-Drop Email Builder SDK | Comprehensive open-source drag-and-drop email editor based on React and MJML. Features full visual canvas editing, custom block development, and clean HTML exports. |
+| **[Carbone](https://github.com/CarboneIO/carbone)** | [![Stars](https://img.shields.io/github/stars/CarboneIO/carbone?style=social&color=white)](https://github.com/CarboneIO/carbone/stargazers) | Document Generation Engine | Powerful document generator using LibreOffice, Word (`.docx`), Excel (`.xlsx`), or OpenDocument templates with JSON data injection and PDF export capabilities. |
+| **[Mosaico](https://github.com/voidlabs/mosaico)** | [![Stars](https://img.shields.io/github/stars/voidlabs/mosaico?style=social&color=white)](https://github.com/voidlabs/mosaico/stargazers) | Drag-and-Drop Email Builder | Mature, self-hosted drag-and-drop email template builder. Browser-based visual editor that generates tested, responsive table-based HTML without recurring export costs. |
+| **[email-builder-js](https://github.com/usewaypoint/email-builder-js)** | [![Stars](https://img.shields.io/github/stars/usewaypoint/email-builder-js?style=social&color=white)](https://github.com/usewaypoint/email-builder-js/stargazers) | Block Email Builder UI | Free, modern, block-based email template builder created by Waypoint. Embeddable JavaScript/React UI that outputs clean JSON configuration and email-compliant HTML. |
+| **[Licensor](https://github.com/clxrityy/Licensor)** | [![Stars](https://img.shields.io/github/stars/clxrityy/Licensor?style=social&color=white)](https://github.com/clxrityy/Licensor/stargazers) | Markdown Document Templater | Desktop document template manager featuring YAML front matter, variable schema definitions, double-curly-brace (`{{var}}`) substitution, and zip/markdown exporting. |
 
 ---
 
-**Made for email marketers, developers, and operations teams building template infrastructure.**  
-Let's make document and email template building more open, accessible, and cost-predictable.
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Help keep this ecosystem comprehensive, accurate, and up to date:
+
+1. 🍴 **Fork the repository** to your personal GitHub account.
+2. 🌿 **Create a descriptive feature branch** (`git checkout -b add-my-template-tool`).
+3. 📝 **Add or update entries in `README.md`**:
+   - Ensure the entry follows the table format.
+   - For SaaS products, verify specific starting prices and exact free tier/trial limits.
+   - For open-source repos, include the official stargazer badge linking to stargazers and maintain proper descending star ordering.
+4. 🚀 **Commit your updates** with a clear message (`git commit -m "Add new open-source template builder"`).
+5. 📬 **Submit a Pull Request** with a brief summary of why the tool should be listed.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Document-Email-Template-Builder&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Document-Email-Template-Builder&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for visiting and using this community resource! Building and maintaining high-quality curated lists takes continuous research and upkeep.
+
+If you find this repository valuable:
+- ⭐ **Star this repository** to help others discover it on GitHub.
+- 🍴 **Fork and share** it with your fellow developers, marketers, and product teams.
+- ☕ **Support the maintainer**: Buy a coffee or sponsor ongoing maintenance directly via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Your encouragement and support keep this project thriving! 🎉
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository is a **community-curated index** provided for educational, developmental, and architectural reference purposes only. Listing does not constitute formal endorsement.
+- Template builders frequently handle dynamic merge tags, customer variables, and sensitive business records; always implement strict data validation, sanitization, and compliance with GDPR/CCPA guidelines.
+- Product pricing, export thresholds, and commercial SDK terms change periodically over time. Please verify current limits directly with vendors before deploying to production environments.
+
+---
+
+<p align="center">
+  <b>Built with ❤️ for developers, marketers, and technical architects worldwide.</b><br/>
+  <sub>Let's make document and email template building open, accessible, and cost-predictable.</sub>
+</p>

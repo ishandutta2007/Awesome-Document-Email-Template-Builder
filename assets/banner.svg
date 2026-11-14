@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e113a" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
+    </linearGradient>
+
+    <linearGradient id="glowGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.1" />
+    </linearGradient>
+
+    <linearGradient id="glowGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.1" />
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f43f5e" />
+      <stop offset="100%" stop-color="#fb923c" />
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="blurFilter" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="60" />
+    </filter>
+
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity="0.4" />
+    </filter>
+
+    <!-- Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.04)" stroke-width="1" />
+    </pattern>
+
+    <style>
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-12px) rotate(1.5deg); }
+      }
+      @keyframes floatReverse {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(12px) rotate(-1.5deg); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.35; transform: scale(1); }
+        50% { opacity: 0.65; transform: scale(1.1); }
+      }
+      @keyframes dashMove {
+        to { stroke-dashoffset: -40; }
+      }
+      .anim-float1 { animation: floatSlow 7s ease-in-out infinite; }
+      .anim-float2 { animation: floatReverse 8s ease-in-out infinite; }
+      .anim-glow1 { animation: pulseGlow 6s ease-in-out infinite; transform-origin: center; }
+      .anim-glow2 { animation: pulseGlow 9s ease-in-out infinite alternate; transform-origin: center; }
+      .dashed-line { stroke-dasharray: 6 6; animation: dashMove 3s linear infinite; }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="400" fill="url(#bgGrad)" />
+  <rect width="1200" height="400" fill="url(#grid)" />
+
+  <!-- Animated Glowing Orbs (Depth Layer) -->
+  <circle cx="150" cy="80" r="140" fill="url(#glowGrad1)" filter="url(#blurFilter)" class="anim-glow1" />
+  <circle cx="1050" cy="320" r="160" fill="url(#glowGrad2)" filter="url(#blurFilter)" class="anim-glow2" />
+  <circle cx="950" cy="80" r="110" fill="#a855f7" opacity="0.25" filter="url(#blurFilter)" class="anim-glow1" />
+
+  <!-- Dynamic Geometric Accent Lines -->
+  <path d="M 50 350 Q 200 280 350 340 T 650 310" fill="none" stroke="url(#textGrad)" stroke-width="2" opacity="0.25" class="dashed-line" />
+  <path d="M 750 60 Q 900 120 1050 70 T 1180 110" fill="none" stroke="url(#textGrad)" stroke-width="2" opacity="0.2" class="dashed-line" />
+
+  <!-- Left Dynamic Element: Document Builder Preview Floating Card -->
+  <g class="anim-float1" transform="translate(60, 110)" filter="url(#cardShadow)">
+    <rect width="190" height="200" rx="14" fill="url(#cardGrad)" stroke="rgba(255,255,255,0.12)" stroke-width="1.5" />
+    <!-- Header of card -->
+    <rect x="15" y="15" width="40" height="8" rx="4" fill="#38bdf8" opacity="0.8" />
+    <circle cx="165" cy="19" r="4" fill="#22c55e" />
+    <!-- Mock doc components -->
+    <rect x="15" y="36" width="160" height="36" rx="6" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.08)" />
+    <circle cx="32" cy="54" r="8" fill="#818cf8" opacity="0.7" />
+    <rect x="48" y="48" width="70" height="5" rx="2.5" fill="rgba(255,255,255,0.6)" />
+    <rect x="48" y="57" width="45" height="4" rx="2" fill="rgba(255,255,255,0.3)" />
+
+    <rect x="15" y="82" width="75" height="48" rx="6" fill="rgba(56, 189, 248, 0.08)" stroke="rgba(56, 189, 248, 0.2)" />
+    <rect x="25" y="94" width="40" height="5" rx="2.5" fill="#38bdf8" opacity="0.7" />
+    <rect x="25" y="105" width="55" height="4" rx="2" fill="rgba(255,255,255,0.4)" />
+    <rect x="25" y="115" width="30" height="4" rx="2" fill="rgba(255,255,255,0.3)" />
+
+    <rect x="100" y="82" width="75" height="48" rx="6" fill="rgba(192, 132, 252, 0.08)" stroke="rgba(192, 132, 252, 0.2)" />
+    <rect x="110" y="94" width="40" height="5" rx="2.5" fill="#c084fc" opacity="0.7" />
+    <rect x="110" y="105" width="55" height="4" rx="2" fill="rgba(255,255,255,0.4)" />
+    <rect x="110" y="115" width="30" height="4" rx="2" fill="rgba(255,255,255,0.3)" />
+
+    <rect x="15" y="140" width="160" height="45" rx="6" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.06)" />
+    <rect x="30" y="152" width="130" height="5" rx="2.5" fill="rgba(255,255,255,0.3)" />
+    <rect x="45" y="163" width="100" height="12" rx="6" fill="url(#textGrad)" opacity="0.9" />
+  </g>
+
+  <!-- Right Dynamic Element: Responsive Email Builder Card -->
+  <g class="anim-float2" transform="translate(950, 95)" filter="url(#cardShadow)">
+    <rect width="190" height="215" rx="14" fill="url(#cardGrad)" stroke="rgba(255,255,255,0.12)" stroke-width="1.5" />
+    <!-- Browser/email top bar -->
+    <circle cx="20" cy="20" r="3.5" fill="#f43f5e" />
+    <circle cx="32" cy="20" r="3.5" fill="#eab308" />
+    <circle cx="44" cy="20" r="3.5" fill="#22c55e" />
+    <rect x="65" y="16" width="105" height="8" rx="4" fill="rgba(255,255,255,0.08)" />
+
+    <!-- Email hero image mockup -->
+    <rect x="15" y="36" width="160" height="60" rx="8" fill="url(#glowGrad1)" opacity="0.7" />
+    <text x="95" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">DRAG &amp; DROP</text>
+
+    <!-- Email body lines -->
+    <rect x="25" y="108" width="140" height="5" rx="2.5" fill="rgba(255,255,255,0.6)" />
+    <rect x="35" y="119" width="120" height="4" rx="2" fill="rgba(255,255,255,0.3)" />
+
+    <!-- Button -->
+    <rect x="50" y="136" width="90" height="22" rx="11" fill="url(#accentGrad)" />
+    <text x="95" y="151" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">VIEW TEMPLATE</text>
+
+    <!-- Footer pills -->
+    <rect x="20" y="176" width="45" height="18" rx="9" fill="rgba(255,255,255,0.07)" />
+    <text x="42" y="188" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8" fill="#38bdf8" text-anchor="middle">MJML</text>
+    <rect x="72" y="176" width="45" height="18" rx="9" fill="rgba(255,255,255,0.07)" />
+    <text x="94" y="188" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8" fill="#a855f7" text-anchor="middle">HTML</text>
+    <rect x="124" y="176" width="45" height="18" rx="9" fill="rgba(255,255,255,0.07)" />
+    <text x="146" y="188" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8" fill="#34d399" text-anchor="middle">SDK</text>
+  </g>
+
+  <!-- Foreground Content: Header, Badge, Subtitle & Highlights -->
+  <!-- Pill Tag at Top -->
+  <g transform="translate(600, 68)" text-anchor="middle">
+    <rect x="-140" y="-14" width="280" height="28" rx="14" fill="rgba(99, 102, 241, 0.15)" stroke="rgba(129, 140, 248, 0.35)" stroke-width="1.2" />
+    <circle cx="-116" cy="0" r="4" fill="#38bdf8" />
+    <text x="8" y="4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#c7d2fe" letter-spacing="1">CURATED ECOSYSTEM 2026</text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="600" y="148" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" text-anchor="middle" fill="#ffffff" letter-spacing="-0.5">
+    Awesome <tspan fill="url(#textGrad)">Document &amp; Email</tspan>
+  </text>
+  <text x="600" y="196" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="40" font-weight="800" text-anchor="middle" fill="#ffffff" letter-spacing="-0.5">
+    Template Builders
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="240" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" text-anchor="middle" fill="#94a3b8" letter-spacing="0.2">
+    Curated SaaS Platforms, Embeddable SDKs &amp; Open-Source Drag-and-Drop Frameworks
+  </text>
+
+  <!-- Feature Pills / Badges in Foreground Bottom Center -->
+  <g transform="translate(600, 295)">
+    <!-- Pill 1 -->
+    <g transform="translate(-250, 0)">
+      <rect x="-70" y="-15" width="140" height="30" rx="15" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
+      <text x="0" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#e2e8f0" text-anchor="middle">✉️ Responsive Emails</text>
+    </g>
+    <!-- Pill 2 -->
+    <g transform="translate(-85, 0)">
+      <rect x="-75" y="-15" width="150" height="30" rx="15" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
+      <text x="0" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#e2e8f0" text-anchor="middle">📄 Document Gen &amp; PDF</text>
+    </g>
+    <!-- Pill 3 -->
+    <g transform="translate(85, 0)">
+      <rect x="-75" y="-15" width="150" height="30" rx="15" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
+      <text x="0" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#e2e8f0" text-anchor="middle">🎨 Drag &amp; Drop SDKs</text>
+    </g>
+    <!-- Pill 4 -->
+    <g transform="translate(250, 0)">
+      <rect x="-70" y="-15" width="140" height="30" rx="15" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
+      <text x="0" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#e2e8f0" text-anchor="middle">⭐ 100% Open Source</text>
+    </g>
+  </g>
+</svg>
