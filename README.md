@@ -15,23 +15,30 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Hosted Platforms](#saas-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
-## SaaS/Hosted Platforms
+## Sector Overview & Market Dynamics
 
-| Product | Description | Pricing (Starting) | Free Tier / Trial Limits |
-|---------|-------------|-------------------|--------------------------|
-| **[Beefree (RGE Studio)](https://beefree.io/)** | Email and landing page design suite (formerly Beefree, now RGE Studio). Drag-and-drop editor with export to ESPs. **Starter plan is completely free**; Professional adds collaboration and merge tag controls . | Starter: **$0** (free forever); Professional: **$30/month** or $300/year; Business: **$160/month** or $1,600/year  | **Free (Starter)**: full editor with some feature limits (export count capped, no collaboration); **15-day Professional trial** without credit card . |
-| **[Stripo](https://stripo.email/)** | Email template builder with export to 80+ ESPs. **Free plan is always free** with 2 members, 4 exports/month, and 10 saved emails. Paid tiers scale export limits and team seats . | Free: **$0**; Basic: **$20/month** (50 exports); Medium: **$45** (300 exports); Pro: **$95** (4,000 exports)  | **Free (forever)**: 2 members, 4 exports/month, 5 test emails/day, 10 saved emails. **No credit card required** . |
-| **[Unlayer](https://unlayer.com/)** | Embeddable email, page, popup, and document builder **SDK for developers**. White-label editor that integrates into your own product. **Free tier: forever free** with basic builders. Paid plans priced by export volume . | Free: **$0** (forever); Launch: **$250/month** (5,000 exports); Scale: **$750/month**; Optimize: **$2,000/month**  | **Free**: basic email/page/popup/document builders, no credit card; **14-day free trial** on paid plans (full feature access) . |
-| **[Chamaileon](https://chamaileon.io/)** | Collaborative email builder SDK for embedding. **Entry pricing signals vary**: Chamaileon's own comparison lists SDK at **$0 entry** with ~$200/month estimated for 500 MAU; third-party review lists custom pricing from **$400** . | SDK: **$0 entry** (~$200/month at 500 MAU); Custom from **$400**  | **14-day free trial** available; free plan exists for basic use . |
-| **[PandaDoc](https://www.pandadoc.com/)** | Document workflow platform with **drag-and-drop document editor and templates**. Free eSign plan includes 5 documents/month and up to 5 reusable templates . | Free: **$0** (5 docs/month); Starter: **$19/seat/month** (annual); Business: **$49/seat/month**  | **Free**: 5 documents/month, 5 templates, limited API access, AI assistants (beta) . **14-day free trial** . |
-| **[Dyspatch](https://www.dyspatch.io/)** | Enterprise email production and collaboration platform. Purpose-built for email teams with approval workflows and modular templates . | List (mid-tier, 50K contacts): **$2,000–$3,000/month**; Negotiated: **$1,500–$2,500/month**; Onboarding: **$1,000–$5,000+** . | **No free tier**; demo via sales. Annual contract minimum **12 months** . |
-| **[MailerLite](https://www.mailerlite.com/)** | Email marketing platform with **drag-and-drop template builder** and automation. Free plan supports up to 1,000 subscribers with 12,000 monthly emails . | Free: **$0** (1,000 subscribers); Growing Business: **from €9/month**; Advanced: **from €19/month**  | **Free**: up to 1,000 subscribers, 12,000 emails/month, 1 user, drag-and-drop editor, 10 landing pages . |
-| **[Mailchimp](https://mailchimp.com/)** | Email marketing platform with **professionally designed templates** and a customizable builder. Free plan available with limited sends; Standard plan includes custom-coded templates . | Standard: **from $20/month** (14-day free trial); Free plan available  | **Free plan**: limited monthly sends; **14-day Standard trial** (up to 24x ROI claim) . |
+The global email marketing software and document generation markets represent a combined market size of approximately **$6.5B to $7.2B** (with email marketing software valued at ~$2.5B–$2.8B growing at ~11.5% CAGR, and document generation software reaching ~$4.1B–$4.4B growing at ~9.7% CAGR). 
+
+The sector exhibits **moderate fragmentation with high concentration at the macro suite level**: while broad marketing and workflow suites (e.g., Mailchimp/Intuit, PandaDoc) capture the bulk of total market revenue through winner-take-most distribution and SMB lock-in, specialized drag-and-drop template builders and embeddable SDKs (e.g., Beefree, Stripo, Unlayer) maintain a highly fragmented, vibrant niche serving bespoke developer integration and multi-ESP workflows.
+
+## SaaS Platforms
+
+| Product | Company Scale (Valuation / Revenue) | Description | Pricing (Starting Tier) | Free Tier / Free Trial Limits |
+|---------|------------------------------------|-------------|-------------------------|-------------------------------|
+| **[Mailchimp](https://mailchimp.com/)** | **$12B acquisition** (~$800M+ ARR) | Flagship email marketing and automation platform featuring rich email template libraries and visual builder. | Standard: **$20/month** (500 contacts) | **Free forever plan**: max 250 contacts, 500 email sends/month (daily cap of 250 sends); **14-day Standard trial** available. |
+| **[PandaDoc](https://www.pandadoc.com/)** | **$1B valuation** (~$100M+ ARR) | Document workflow and automation platform offering drag-and-drop proposal, contract, and document template design. | Starter: **$19/user/month** (annual) or $35/month | **Free forever plan**: 5 documents/month, 5 templates, eSignatures only; **14-day free trial** of Business plan (capped at 5 test documents, no credit card required). |
+| **[MailerLite](https://www.mailerlite.com/)** | **~$90M (€84M) acquisition** (~$18M ARR) | Email marketing and landing page platform with intuitive drag-and-drop builder and automation tools. | Growing Business: **€9/month** (~$10/month, 500 subscribers) | **Free forever plan**: up to 1,000 subscribers, 12,000 emails/month, 1 user seat, 10 landing pages; **30-day free trial** of premium features. |
+| **[Beefree (RGE Studio)](https://beefree.io/)** | **~$26M (€24M) parent market cap** ($18.7M ARR) | Standalone and embeddable visual design suite for responsive emails, popups, and pages (subsidiary of publicly traded Growens). | Professional: **$30/month** (or $300/year billed annually) | **Free forever (Starter) plan**: max 6 exports/month, 10 stored designs/pages, includes Beefree badge; **15-day Professional free trial** (no credit card required). |
+| **[Stripo](https://stripo.email/)** | **Bootstrapped** (~$4.5M–$4.8M ARR) | Specialized email template design tool featuring modular email blocks, AMP components, and direct export to 80+ ESPs. | Basic: **$20/month** (or $180/year; 50 exports/month) | **Free forever plan**: 2 user seats, 4 exports/month, 5 test emails/day, 10 saved emails (no credit card required). |
+| **[Unlayer](https://unlayer.com/)** | **Seed-funded / YC** (~$5M ARR) | Embeddable drag-and-drop builder SDK and web editor for emails, web pages, popups, and documents. | Launch: **$250/month** (5,000 cloud API exports) | **Free forever plan**: $0 for basic web builders on 1 domain (no white-labeling, cloud export limits apply); **14-day free trial** for paid plans. |
+| **[Dyspatch](https://www.dyspatch.io/)** | **~$13.4M funded** (~$2.5M ARR) | Enterprise-focused email production environment and modular template builder with approval workflows and localization. | Starter: **$149/month** (or $134.10/month billed annually) | **No standard self-serve free plan**; **Trial / demo evaluation sandbox**: 100 email client render previews provided upon request via sales demo. |
+| **[Chamaileon](https://chamaileon.io/)** | **Bootstrapped** (~$660K ARR) | Collaborative email design platform and embeddable SDK with reusable module libraries and real-time co-editing. | Premium Team: **$400/month** (or ~$4,000/year billed annually) | **No standard self-serve free plan**; Guided evaluation sandbox access provided via consultation / product demo call. |
 
 ## Open-Source GitHub Projects
 
