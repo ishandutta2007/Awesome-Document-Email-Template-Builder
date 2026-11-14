@@ -67,9 +67,9 @@ The sector exhibits **moderate fragmentation with high concentration at the macr
 ## 💻 Open-Source GitHub Projects
 
 > [!TIP]
-> All repositories are ranked in descending order of GitHub stargazers. Click any star badge to view stargazers directly.
+> All repositories are ranked in descending order of GitHub stargazers. Click any Stars_Badge to view stargazers directly.
 
-| Project | Stars | Category | Description |
+| Project | GitHub_Stars | Category | Description |
 |---------|-------|----------|-------------|
 | **[React Email](https://github.com/resend/react-email)** | [![Stars](https://img.shields.io/github/stars/resend/react-email?style=social&color=white)](https://github.com/resend/react-email/stargazers) | Email Framework / Components | Next-generation collection of high-quality, unstyled React components for creating beautiful, responsive emails across Gmail, Apple Mail, and Outlook. Built by Resend. |
 | **[MJML](https://github.com/mjmlio/mjml)** | [![Stars](https://img.shields.io/github/stars/mjmlio/mjml?style=social&color=white)](https://github.com/mjmlio/mjml/stargazers) | Email Markup Language / Engine | The industry standard semantic markup language designed to reduce the pain of coding responsive emails. Compiles semantic tags into bulletproof, client-compliant HTML. |
