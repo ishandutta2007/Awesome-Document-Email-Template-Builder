@@ -1,6 +1,6 @@
 # Awesome-Document-Email-Template-Builder
 
-# Top Document & Email Template Builder Ecosystem
+## Top Document & Email Template Builder Ecosystem
 
 **Curated List of SaaS Platforms & Open-Source GitHub Projects**  
 *Focused on Drag-and-Drop Email Design, Document Templating & White-Label Embedding*  
